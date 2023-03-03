@@ -1,0 +1,19 @@
+.facaLogin{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    text-align: center;
+}
+
+.facaLogin Button{
+    background-color: aqua;
+    margin: 5px;
+}
+
+.css-htszrh-MuiButton-startIcon{
+    margin: 0px !important;
+}
