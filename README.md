@@ -1,4 +1,4 @@
-#INSTRUÇÕES
+<h2 align="center"> Instruções <h2>
 
-☼ npm install
-☼ yarn dev
+<p># npm install</p>
+<p># yarn dev</p>
