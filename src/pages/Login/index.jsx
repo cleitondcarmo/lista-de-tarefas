@@ -62,7 +62,7 @@ const Login = () => {
             type="text"
             name="email"
             id="email"
-            placeholder="johndoe@gmail.com"
+            placeholder="ana@gmail.com"
             autoComplete="off"
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -74,7 +74,7 @@ const Login = () => {
             type="password"
             name="password"
             id="password"
-            placeholder="********************"
+            placeholder="***********"
             autoComplete="off"
             onChange={(e) => setPassword(e.target.value)}
           />
@@ -83,7 +83,7 @@ const Login = () => {
         <a href="#">Esqueceu sua senha ?</a>
 
         <button className="button" onClick={handleSignIn} >
-          Entrar <img src={arrowImg} alt="->" />
+          Entrar
         </button>
         <div className="footer">
           <Link to="/register">Criar uma conta</Link>

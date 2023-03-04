@@ -21,8 +21,7 @@ export default function Register() {
     e.preventDefault();
     createUserWithEmailAndPassword(email, password);
     setAlert(true);
-/*     navigate("/login");
- */  }
+  }
 
   if (loading) {
     return <CircularProgress style={{ margin: "50%" }} color="success" />
@@ -33,8 +32,8 @@ export default function Register() {
       <div>
         {alert ? <Alert severity="success">
           <AlertTitle>Successo</AlertTitle>
-            Sua conta foi criada — <strong>Faça login!</strong>
-          </Alert> : <></>}
+          Sua conta foi criada — <strong>Faça login!</strong>
+        </Alert> : <></>}
       </div>
       <header className="header">
         <img style={{ width: "100px", height: "100px" }} src={logoImg} alt="Workflow" className="logoImg" />
